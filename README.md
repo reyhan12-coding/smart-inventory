@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📦 SmartInventory Management System
 
-## Getting Started
+![Project Status](https://img.shields.io/badge/Status-Live_Demo_Available-success)
+![Next.js](https://img.shields.io/badge/Next.js-14-black)
+![Supabase](https://img.shields.io/badge/Supabase-Database-green)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-blue)
 
-First, run the development server:
+**SmartInventory** adalah aplikasi web manajemen inventaris modern yang dirancang untuk membantu Usaha Kecil Menengah (UKM) memantau stok barang secara efisien, *real-time*, dan akurat.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Project ini dibangun sebagai **Portofolio Full Stack** untuk mendemonstrasikan kemampuan integrasi antara Frontend modern (Next.js) dan Backend-as-a-Service (Supabase).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🌐 Live Demo
+Cobalah aplikasi ini secara langsung tanpa perlu instalasi:
+### 👉 [KLIK DISINI UNTUK MEMBUKA WEBSITE](https://smart-inventory-reyhan.vercel.app)
+*(Pastikan ganti link di atas dengan link Vercel asli Anda)*
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📸 Tampilan Aplikasi
+*(Gambar di atas menunjukkan antarmuka dashboard monitoring stok barang)*
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Fitur Utama
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Aplikasi ini memiliki fitur **CRUD (Create, Read, Update, Delete)** lengkap:
 
-## Deploy on Vercel
+* **Dashboard Monitoring:** Melihat ringkasan total barang dan stok yang menipis.
+* **Manajemen Barang:**
+    * ✅ **Create:** Menambah barang baru dengan detail (Nama, Kategori, Harga, Stok).
+    * ✅ **Read:** Menampilkan daftar barang secara real-time dari database.
+    * ✅ **Update:** Mengedit informasi barang yang sudah ada.
+    * ✅ **Delete:** Menghapus barang dari inventaris.
+* **Real-time Database:** Data langsung tersimpan aman di Supabase (PostgreSQL).
+* **Responsive Design:** Tampilan optimal di Desktop, Tablet, dan Smartphone.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ Teknologi yang Digunakan (Tech Stack)
+
+Project ini dibangun menggunakan standar industri terkini:
+
+| Kategori | Teknologi | Kegunaan |
+| :--- | :--- | :--- |
+| **Frontend** | [Next.js 14 (App Router)](https://nextjs.org/) | Framework React utama untuk performa & SEO. |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework. |
+| **Backend & DB** | [Supabase](https://supabase.com/) | PostgreSQL Database & Auto API generation. |
+| **Deployment** | Vercel | Cloud platform untuk hosting aplikasi Next.js. |
+
+---
+
+## 🚀 Cara Menjalankan di Lokal (Installation)
+
+Jika Anda ingin melihat kode sumber dan menjalankannya di komputer lokal:
+
+1.  **Clone Repository**
+    ```bash
+    git clone [https://github.com/reyhan12-coding/smart-inventory.git](https://github.com/reyhan12-coding/smart-inventory.git)
+    cd smart-inventory
+    ```
+
+2.  **Install Dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Setup Environment Variables**
+    Buat file `.env.local` dan isi dengan kredensial Supabase Anda:
+    ```bash
+    NEXT_PUBLIC_SUPABASE_URL=your_url
+    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_key
+    ```
+
+4.  **Jalankan Server**
+    ```bash
+    npm run dev
+    ```
+
+---
+
+## 👨‍💻 Tentang Pembuat
+
+Project ini dibuat oleh **[Nama Lengkap Anda]**, mahasiswa Teknik Informatika Semester 5.
+
+Saya memiliki ketertarikan kuat pada **Software Engineering** dan **Web Development**. Saat ini saya sedang mencari kesempatan **Magang (Internship)** untuk berkontribusi dan belajar lebih jauh di lingkungan profesional.
+
+* 🔗 **LinkedIn:** [Tulis Link LinkedIn Anda Disini]
+* 📧 **Email:** [Tulis Email Anda Disini]
+* 🐙 **GitHub:** [https://github.com/reyhan12-coding](https://github.com/reyhan12-coding)
+
+---
+
+> *Dibuat dengan ❤️ menggunakan Next.js dan Supabase.*
