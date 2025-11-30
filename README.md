@@ -13,8 +13,8 @@ Project ini dibangun sebagai **Portofolio Full Stack** untuk mendemonstrasikan k
 
 ## 🌐 Live Demo
 Cobalah aplikasi ini secara langsung tanpa perlu instalasi:
-### 👉 [KLIK DISINI UNTUK MEMBUKA WEBSITE](https://smart-inventory-reyhan.vercel.app)
-*(Pastikan ganti link di atas dengan link Vercel asli Anda)*
+### 👉 [KLIK DISINI UNTUK MEMBUKA WEBSITE](https://smart-inventory-reyhanarrafifathalla.vercel.app/)
+
 
 ---
 
@@ -82,12 +82,11 @@ Jika Anda ingin melihat kode sumber dan menjalankannya di komputer lokal:
 
 ## 👨‍💻 Tentang Pembuat
 
-Project ini dibuat oleh **[Nama Lengkap Anda]**, mahasiswa Teknik Informatika Semester 5.
+Project ini dibuat oleh **[Reyhan Arrafif Athalla]**, mahasiswa Teknik Informatika Semester 5.
 
 Saya memiliki ketertarikan kuat pada **Software Engineering** dan **Web Development**. Saat ini saya sedang mencari kesempatan **Magang (Internship)** untuk berkontribusi dan belajar lebih jauh di lingkungan profesional.
 
-* 🔗 **LinkedIn:** [Tulis Link LinkedIn Anda Disini]
-* 📧 **Email:** [Tulis Email Anda Disini]
+* 📧 **Email:** [antnest15@gmail.com]
 * 🐙 **GitHub:** [https://github.com/reyhan12-coding](https://github.com/reyhan12-coding)
 
 ---
