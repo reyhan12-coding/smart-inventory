@@ -57,7 +57,7 @@ Jika Anda ingin melihat kode sumber dan menjalankannya di komputer lokal:
 
 1.  **Clone Repository**
     ```bash
-    git clone [https://github.com/reyhan12-coding/smart-inventory.git](https://github.com/reyhan12-coding/smart-inventory.git)
+    git clone https://github.com/reyhan12-coding/smart-inventory
     cd smart-inventory
     ```
 
